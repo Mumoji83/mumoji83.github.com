@@ -22,7 +22,7 @@ links.forEach(function name(link) {
 
 
     setTimeout(function name() {
-      location.href = "/Hombres-G";  
+      location.href = "../Hombres-G";  
     }, 600);
 
     return false;
