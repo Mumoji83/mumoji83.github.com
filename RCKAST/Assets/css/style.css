@@ -1,0 +1,427 @@
+
+
+/*
+rgb(2, 157, 230)
+rgb(0, 255, 255)
+rgb(83, 195, 247)
+rgb(214, 231, 235)
+*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+  text-transform: capitalize;
+  text-decoration: none;
+ }
+
+
+ body {
+  min-height: 100vh;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(50deg, rgb(2, 157, 230),   rgb(0, 255, 255), rgb(83, 195, 247),  rgb(214, 231, 235)) fixed;
+  background-size: 400% 400%;
+  background-position: center;
+  animation: gradiente 8s ease-in infinite;
+  -webkit-animation: gradiente 8s ease-in infinite;
+}
+
+@keyframes gradiente {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+
+
+
+/* HEADER */
+
+
+
+
+header {
+  padding: 10px 40px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+header .logo {
+  height: 80px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+header .navbar ul {
+  list-style: none;
+}
+
+header .navbar ul li {
+  position: relative;
+  float: left;
+}
+
+header .navbar ul li a {
+  font-size: 20px;
+  padding: 20px;
+  color: #333;
+  /* letter-spacing: .1em; */
+  display: block;
+  margin-left: 5px;
+  position: relative;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: .5;
+  -webkit-transition: .5;
+  -moz-transition: .5;
+  -ms-transition: .5;
+  -o-transition: .5;
+  overflow: hidden;
+}
+
+header .navbar ul li a:hover {
+  color: #fff;
+}
+
+
+header .navbar ul li a span {
+  position: absolute;
+  background: rgb(0, 174, 255);
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+header .navbar ul li a span:nth-child(1) {
+  width: 100%;
+  height: 2px;
+  top: 0;
+  left: -100%;
+}
+
+header .navbar ul li a span:nth-child(2) {
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  right: -100%;
+}
+
+header .navbar ul li a span:nth-child(3) {
+  width: 2px;
+  height: 100%;
+  bottom: -100%;
+  left: 0;
+}
+
+header .navbar ul li a span:nth-child(4) {
+  width: 2px;
+  height: 100%;
+  top: -100%;
+  right: 0;
+}
+
+header .navbar ul li a:hover span:nth-child(1) {
+  left: 0;
+}
+
+header .navbar ul li a:hover span:nth-child(2) {
+  right: 0;
+}
+
+header .navbar ul li a:hover span:nth-child(3) {
+  bottom: 0;
+}
+
+header .navbar ul li a:hover span:nth-child(4) {
+  top: 0;
+}
+
+
+header .navbar ul li ul {
+  position: absolute;
+  display: none;
+}
+
+header .navbar ul li ul li {
+  margin-top: 5px;
+  width: 100%;
+}
+
+header .navbar ul li:focus-within > ul,
+header .navbar ul li:hover > ul {
+  display: initial;
+}
+
+#menu-bar {
+  display: none;
+}
+
+header label {
+  font-size: 20px;
+  color: #333;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
+/* CONTENIDO */
+
+
+
+
+.container {
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-clip {
+  width: 100%;
+}
+
+
+.logo-2 {
+  height: 400px;
+}
+
+.container2 {
+  width: 100%;
+  height: 500px;
+  margin: 80px 0;
+  display: flex;
+}
+
+.slider {
+  width: 600px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+  border: 4px solid black;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+.slider ul {
+  display: flex;
+  animation: cambio 20s infinite;
+  -webkit-animation: cambio 12s infinite;
+  width: 400%;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes cambio {
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+
+}
+
+
+/* FOOTER */
+
+footer {
+  background: #333;
+}
+
+.Fcontainer {
+  width: 100%;
+  padding: 35px 30px;
+}
+
+.iconos {
+  display: flex;
+  justify-content: center;
+}
+
+.iconos a {
+  text-decoration: none;
+  margin: 10px;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+
+.iconos a i {
+  font-size: 30px;
+  color: #000;
+  opacity: .9;
+}
+
+.iconos a:hover {
+  background-color: #333;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+
+}
+
+.iconos a:hover i {
+  color: #fff;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.footerNav {
+  margin: 25px 0;
+}
+
+.footerNav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.footerNav ul li a {
+  color: #fff;
+  margin: 15px;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  letter-spacing: .1em;
+  opacity: .6;
+  transition: .5s;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
+}
+
+.footerNav ul li a:hover {
+  opacity: 1;
+}
+
+.paragraphFooter {
+  padding: 10px;
+  text-align: center;
+}
+
+.paragraphFooter p {
+  color: #fff;
+}
+
+
+
+
+/* RESPONSIVE */
+
+
+
+
+@media(max-width:990px){
+
+
+  /* HEADER */
+
+  header {
+    padding: 20px;
+  }
+
+  header label {
+    display: initial;
+  }
+
+  header .navbar {
+    position: absolute;
+    top: 60px; left: 0; right: 0;
+    padding-top: 100px;
+    display: none;
+  }
+
+  header .navbar ul li {
+    width: 100%;
+    z-index: 1;
+  }
+
+  header .navbar ul li a {
+    color: rgb(2, 157, 230);
+  }
+
+  header .navbar ul li a span {
+    display: none;
+  }
+
+  header .navbar ul li ul {
+    position: relative;
+    width: 100%;
+  }
+
+  
+
+  header .navbar ul li ul li {
+    background: rgb(214, 231, 235);
+  }
+
+  header label {
+    padding-top: 20px;
+    padding-right: 20px;
+  }
+
+  #menu-bar:checked ~ .navbar {
+    display: initial;
+  }
+
+  /* CONTENIDO */
+
+  /* FOOTER */
+
+  .footerNav ul {
+    flex-direction: column;
+  }
+
+  
+
+}
