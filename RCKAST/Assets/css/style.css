@@ -412,6 +412,33 @@ footer {
   .container {
     margin: 0 0;
   }
+
+  .body-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .div-1 {
+    width: 430px;
+    height: auto;
+  }
+
+  .div-1 h2 {
+    font-size: 30px;
+  }
+
+  .div-1 p {
+    font-size: 25px;
+    margin-bottom: 40px;
+  }
+
+  .div-2 {
+    margin-left: 80px;
+  }
+
+  .div-21 img {
+    width: 80%;
+  }
   
 
   /* FOOTER */
