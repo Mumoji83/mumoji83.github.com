@@ -68,6 +68,7 @@ header .logo {
 
 header .navbar ul {
   list-style: none;
+  z-index: 1;
 }
 
 header .navbar ul li {
@@ -78,8 +79,8 @@ header .navbar ul li {
 header .navbar ul li a {
   font-size: 20px;
   padding: 20px;
-  color: #333;
-  /* letter-spacing: .1em; */
+  color: #fff;
+  letter-spacing: .1em;
   display: block;
   margin-left: 5px;
   position: relative;
@@ -98,9 +99,6 @@ header .navbar ul li a {
   overflow: hidden;
 }
 
-header .navbar ul li a:hover {
-  color: #fff;
-}
 
 
 header .navbar ul li a span {
@@ -204,7 +202,7 @@ header label {
 
 
 .container {
-  margin-top: 120px;
+  /* margin-top: 120px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -315,39 +313,92 @@ footer {
   -o-transition: .5s;
 }
 
-.footerNav {
-  margin: 25px 0;
+.footer-container {
+  width: 100%;
+  padding: 12px;
 }
 
-.footerNav ul {
+.footer-nav2 {
+  margin: 10px;
   display: flex;
-  justify-content: center;
-  list-style: none;
+  justify-content: space-around;
+  align-items: center;
 }
 
-.footerNav ul li a {
+
+.box-1 p {
+  font-size: 1.2em;
   color: #fff;
-  margin: 15px;
-  text-decoration: none;
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 20px;
-  letter-spacing: .1em;
-  opacity: .6;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
 }
 
-.footerNav ul li a:hover {
-  opacity: 1;
+.box-2 a {
+  margin: 20px;
 }
 
-.paragraphFooter {
+
+.box-2 a i {
+  background-color: #fff;
   padding: 10px;
+  font-size: 1.8em;
+  color: #000;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+  opacity: .9;
+}
+
+
+.box-2 a i:hover {
+  background-color: #111;
+  transition: .5s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
+}
+
+
+.box-2 a:hover {
+  background-color: #111;
+  transition: .5s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
+}
+
+.box-2 a:hover i {
+  color: #fff;
+  transition: .5s;
+  -webkit-transition:;
+  -moz-transition:;
+  -ms-transition:;
+  -o-transition:;
+}
+
+.btn-wsp {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 20px;
+  right: 30px;
+  background: #0df053;
+  color: #fff;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
   text-align: center;
+  font-size: 30px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
+}
+
+.paragraphFooter{
+  padding: 10px;
 }
 
 .paragraphFooter p {
