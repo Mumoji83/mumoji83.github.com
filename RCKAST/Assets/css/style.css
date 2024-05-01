@@ -88,11 +88,11 @@ header .navbar ul li a {
   position: relative;
   border: none;
   outline: none;
-  border-radius: 60px;
-  -webkit-border-radius: 60px;
-  -moz-border-radius: 60px;
-  -ms-border-radius: 60px;
-  -o-border-radius: 60px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
   transition: .5;
   -webkit-transition: .5;
   -moz-transition: .5;
