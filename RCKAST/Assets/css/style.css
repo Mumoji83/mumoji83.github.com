@@ -74,23 +74,25 @@ header .navbar ul {
 header .navbar ul li {
   position: relative;
   float: left;
+  
 }
 
 header .navbar ul li a {
   font-size: 20px;
   padding: 20px;
   color: #fff;
+  background-color: rgb(83, 195, 247);
   letter-spacing: .1em;
   display: block;
   margin-left: 5px;
   position: relative;
   border: none;
   outline: none;
-  border-radius: 5px;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+  border-radius: 60px;
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  -o-border-radius: 60px;
   transition: .5;
   -webkit-transition: .5;
   -moz-transition: .5;
@@ -202,7 +204,6 @@ header label {
 
 
 .container {
-  /* margin-top: 120px; */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -213,9 +214,7 @@ header label {
 }
 
 
-.logo-2 {
-  height: 400px;
-}
+
 
 
 /*PARTE 2*/
@@ -266,52 +265,7 @@ footer {
   background: #333;
 }
 
-.Fcontainer {
-  width: 100%;
-  padding: 35px 30px;
-}
-
-.iconos {
-  display: flex;
-  justify-content: center;
-}
-
-.iconos a {
-  text-decoration: none;
-  margin: 10px;
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
-}
-
-.iconos a i {
-  font-size: 30px;
-  color: #000;
-  opacity: .9;
-}
-
-.iconos a:hover {
-  background-color: #333;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-
-}
-
-.iconos a:hover i {
-  color: #fff;
-  transition: .5s;
-  -webkit-transition: .5s;
-  -moz-transition: .5s;
-  -ms-transition: .5s;
-  -o-transition: .5s;
-}
+/*  */
 
 .footer-container {
   width: 100%;
@@ -397,13 +351,12 @@ footer {
   box-shadow: 0px 1px 10px rgba(0, 0, 0, .3);
 }
 
-.paragraphFooter{
-  padding: 10px;
+.btn-wsp:hover {
+  text-decoration: none;
+  color: #0df053;
+  background: #fff;
 }
 
-.paragraphFooter p {
-  color: #fff;
-}
 
 
 
@@ -515,12 +468,31 @@ footer {
 
   /* FOOTER */
 
+ 
 
-
-  .footerNav ul {
+  .footer-nav2 {
+    display: flex;
     flex-direction: column;
   }
 
+  .box-1 {
+    text-align: center;
+  }
 
+  .box-2 {
+    padding: 10px 20px;
+    display: flex;
+  }
+
+  .box-3 {
+    margin: 30px 0;
+  }
+
+  .btn-wsp {
+    display: flex;
+    flex-direction: column;
+    margin: 0 50%;
+    position: relative;
+  }
 
 }
