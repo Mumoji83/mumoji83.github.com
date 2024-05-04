@@ -81,7 +81,7 @@ header .navbar ul li a {
   font-size: 20px;
   padding: 20px;
   color: #fff;
-  background-color: rgb(83, 195, 247);
+  background: #6290e67e;
   letter-spacing: .1em;
   display: block;
   margin-left: 5px;
@@ -164,8 +164,12 @@ header .navbar ul li ul {
 }
 
 header .navbar ul li ul li {
-  margin-top: 5px;
+  margin: 5px 0;
   width: 100%;
+}
+
+header .navbar ul li ul li a {
+  background: #6290e67e;
 }
 
 header .navbar ul li:focus-within > ul,
@@ -256,6 +260,7 @@ header label {
 }
 
 .div-21 img {
+  margin-top: 10px;
   width: 100%;
 }
 
@@ -307,29 +312,29 @@ footer {
 .box-2 a i:hover {
   background-color: #111;
   transition: .5s;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
 
 .box-2 a:hover {
   background-color: #111;
   transition: .5s;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
 .box-2 a:hover i {
   color: #fff;
   transition: .5s;
-  -webkit-transition:;
-  -moz-transition:;
-  -ms-transition:;
-  -o-transition:;
+  -webkit-transition: .5s;
+  -moz-transition: .5s;
+  -ms-transition: .5s;
+  -o-transition: .5s;
 }
 
 .btn-wsp {
@@ -394,6 +399,7 @@ footer {
     width: 100%;
     z-index: 1;
   }
+  
 
   header .navbar ul li a {
     color: #fff;
@@ -406,13 +412,26 @@ footer {
     -o-border-radius: 0%;
 }
 
+header .navbar ul li a:hover {
+  color: #333;
+}
+
   header .navbar ul li a span {
     display: none;
   }
 
+  header .navbar ul li:focus-within > ul,
+  header .navbar ul li:hover > ul {
+  display: none;
+}
+
   header .navbar ul li ul {
     position: relative;
     width: 100%;
+  }
+
+  header .navbar ul li ul li {
+    margin: 0;
   }
 
   
