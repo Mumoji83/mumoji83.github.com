@@ -155,13 +155,12 @@ header .navbar ul li a:hover span:nth-child(4) {
 header .navbar ul li ul {
   position: absolute;
   display: none;
-  
 }
 
 header .navbar ul li ul li {
   margin: 5px 0;
   width: 100%;
-  
+  margin: 10px 0;
 }
 
 
