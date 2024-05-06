@@ -59,11 +59,6 @@ header {
 
 header .logo {
   height: 80px;
-  border-radius: 50%;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  -ms-border-radius: 50%;
-  -o-border-radius: 50%;
 }
 
 header .navbar ul {
@@ -81,7 +76,6 @@ header .navbar ul li a {
   font-size: 20px;
   padding: 20px;
   color: #fff;
-  background: #6290e67e;
   letter-spacing: .1em;
   display: block;
   margin-left: 5px;
@@ -161,20 +155,22 @@ header .navbar ul li a:hover span:nth-child(4) {
 header .navbar ul li ul {
   position: absolute;
   display: none;
+  
 }
 
 header .navbar ul li ul li {
   margin: 5px 0;
   width: 100%;
+  
 }
 
-header .navbar ul li ul li a {
-  background: #6290e67e;
-}
+
+
 
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
   display: initial;
+  
 }
 
 #menu-bar {
@@ -252,7 +248,8 @@ header label {
   font-size: 32px;
   font-family: "Raleway", sans-serif;
   margin-top: 20px;
-  text-align: center;
+  text-align: justify;
+  text-transform: uppercase;
 }
 
 .div-21 {
@@ -394,7 +391,6 @@ footer {
   
 
   header .navbar ul li {
-    background: rgba(51, 51, 51, 0.356);
     width: 100%;
     z-index: 1;
   }
@@ -412,7 +408,7 @@ footer {
 }
 
 header .navbar ul li a:hover {
-  color: #333;
+  color: rgb(2, 157, 230);
 }
 
   header .navbar ul li a span {
@@ -433,11 +429,7 @@ header .navbar ul li a:hover {
     margin: 0;
   }
 
-  
 
-  header .navbar ul li ul li {
-    background: rgb(214, 231, 235);
-  }
 
   header label {
     padding-top: 20px;
@@ -461,7 +453,7 @@ header .navbar ul li a:hover {
   }
 
   .div-1 {
-    width: 350px;
+    width: 380px;
     height: auto;
     margin-top: 30px;
   }
