@@ -109,6 +109,8 @@ body {
   box-shadow: 0 0 2px rgba(0, 0, 0, .5);
 }
 
+
+
 @media (max-width: 820px) {
   .img-slider {
     width: 600px;
