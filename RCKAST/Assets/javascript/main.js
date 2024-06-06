@@ -1,5 +1,7 @@
 
-var slides = document.querySelectorAll('.slide');
+/*
+
+  var slides = document.querySelectorAll('.slide');
   var btns = document.querySelectorAll('.btn');
   let currentSlide = 1;
 
@@ -19,6 +21,8 @@ var slides = document.querySelectorAll('.slide');
     btns[manual].classList.add('active');
   }
 
+
+  
   btns.forEach((btn, i) => {
 
     btn.addEventListener("click", () => {
@@ -60,12 +64,20 @@ var slides = document.querySelectorAll('.slide');
   }
   repeat();
 
+
+  */
+
+
+  //función para mostrar y ocultar menú
+
 function ShowHide() {
 
   var container = document.getElementsByClassName("cont")[0];
+  
 
   if (container.style.display  == "initial") {
 
+    
     container.style.display  = "none";
 
   } else {
