@@ -744,6 +744,23 @@ header .navbar ul li a:hover {
     height: 10px;
     margin: 8px;
   } */
+
+  .container2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container2 .imagen {
+    display: grid;
+    place-content: center;
+  }
+
+  .container2 .video {
+    display: grid;
+    place-content: center;
+  }
+
+  
   
 
   /* FOOTER */
