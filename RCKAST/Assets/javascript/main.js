@@ -116,3 +116,11 @@ function ShowHide() {
         }
   
   }));
+
+    //funcion para el cambio de color de los botones
+
+const a1 = document.querySelector('.a1');
+
+a1.addEventListener('click', () => {
+  a1.style.backgroundColor = '#fff';
+});
