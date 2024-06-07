@@ -68,7 +68,7 @@
   */
 
 
-  //función para mostrar y ocultar menú
+  //función para mostrar y ocultar menú de Talento
 
 function ShowHide() {
 
@@ -88,3 +88,31 @@ function ShowHide() {
   
 }
 
+  // funciones de galeria de nuestro trabajo
+
+
+  const ImgBoxFull = document.getElementById("ImgBoxFull");
+  const ImgFull = document.getElementById("ImgFull");
+  
+  function openImgFull(reference) {
+    ImgBoxFull.style.display = "flex";
+    ImgFull.src = reference;
+  }
+  
+  function closeImg() {
+    ImgBoxFull.style.display = "none";
+  }
+  
+  var video = document.querySelectorAll('video');
+  
+      video.forEach(play => play.addEventListener('click', () => {
+      play.classList.toggle('active');
+  
+        if (play.paused) {
+          play.play();
+        } else {
+          play.pause();
+          play.currentTime = 0;
+        }
+  
+  }));
