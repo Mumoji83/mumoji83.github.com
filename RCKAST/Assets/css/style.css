@@ -760,6 +760,39 @@ header .navbar ul li a:hover {
     place-content: center;
   }
 
+
+  .container2 .imagen:hover {
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+  
+  .container2 .video video:hover {
+    transition: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transform: none;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+}
+
+
+.full-img img {
+  width: 70%;
+  max-width: 400px;
+}
+
   
   
 
