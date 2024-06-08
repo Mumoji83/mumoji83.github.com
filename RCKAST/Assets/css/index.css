@@ -469,7 +469,7 @@ header .navbar ul li a:hover {
   }
 
   .div-1 {
-    width: 380px;
+    width: 320px;
     height: auto;
     margin-top: 30px;
   }
@@ -481,14 +481,15 @@ header .navbar ul li a:hover {
   .div-1 p {
     font-size: 25px;
     margin-bottom: 40px;
+    text-align: center;
   }
 
   .div-2 {
-    margin-left: 80px;
+    margin-left: 110px;
   }
 
   .div-21 img {
-    width: 80%;
+    width: 75%;
   }
 
 
