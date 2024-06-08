@@ -275,14 +275,14 @@ header label {
 .container2 .video .active {
   position: fixed;
   top: 20%;
-  left: 25%;
+  left: 15%;
   transform: translate(-50% -50%);
   -webkit-transform: translate(-50% -50%);
   -moz-transform: translate(-50% -50%);
   -ms-transform: translate(-50% -50%);
   -o-transform: translate(-50% -50%);
-  height: 50%;
-  width: 50%;
+  height: 60%;
+  width: 60%;
   box-shadow: 0 0 0 100vh rgba(0, 0, 0, .7);
   z-index: 1;
 }
