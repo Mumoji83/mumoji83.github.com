@@ -6,6 +6,9 @@
   <title>Document</title>
   <link rel="stylesheet" href="./style.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
 <body>
   <header>
@@ -33,30 +36,61 @@
   </header>
   <section>
     <div class="container mt-5 mb-5">
-      <div class="card" style="width: 18rem;">
-        <img src="./Assets/img/pray.jpg" class="card-img-top" alt="Personas orando">
-        <div class="card-body">
-          <h5 class="card-title">Lorem, ipsum.</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Persona Orando" class="cover cover-small" style="background-image: url(./Assets/img/pray.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Personas Juagando" class="cover cover-small" style="background-image: url(./Assets/img/play.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-3 mt-2">
+          <div class="card">
+            <div title="Libro de estudio" class="cover cover-small" style="background-image: url(./Assets/img/study.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Lorem, ipsum.</h5>
+              <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              
+            </div>
+          </div>  
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./Assets/img/play.jpg" class="card-img-top" alt="Personas orando">
-        <div class="card-body">
-          <h5 class="card-title">Lorem, ipsum.</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+    </div>
+  </section>
+  <section>
+    <div class="container mt-5 mb-5">
+      <div class="row ">
+        <div class="col-12 col-sm-6 col-lg-5">
+          <img class="image-svg" src="./Assets/img/ReadingDoodle.svg" alt="Persona leyendo">
+        </div>
+        <div class="col-12 col-sm-6 desc">
+          <h3>Lorem ipsum dolor sit amet.</h3>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+          <a href="#">Ir al mapa</a>
         </div>
       </div>
-      <div class="card" style="width: 18rem;">
-        <img src="./Assets/img/study.jpg" class="card-img-top" alt="Personas orando">
-        <div class="card-body">
-          <h5 class="card-title">Lorem, ipsum.</h5>
-          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
+      <form action="">
+        <label for="email">Correo Electrónico</label>
+        <div class="d-flex">
+          <div class="flex-fill me-2">
+            <input type="email" class="form-control" id="email">
+          </div>
+            <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
-      </div>
+      </form>
     </div>
   </section>
 </body>

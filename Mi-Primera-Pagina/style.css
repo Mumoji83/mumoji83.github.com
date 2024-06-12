@@ -1,5 +1,14 @@
+
+* {
+  font-family: "Noto Sans", sans-serif;
+}
+
 body {
   margin: 0cm;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Fjalla One", sans-serif;
 }
 
 .cover {
@@ -12,7 +21,28 @@ body {
   background-blend-mode: darken;
 }
 
+.cover-small {
+  height: 180px;
+  background-blend-mode: normal;
+}
+
 .card {
   border: 0 !important;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, .1), 0 2px 4px -1px rgba(0, 0, 0, .6);
+}
+
+.card-title {
+  min-height: 3rem;
+}
+
+.card-text {
+  min-height: 5rem;
+}
+
+.doodle {
+  width: 250px;
+}
+
+.desc a {
+  text-decoration: none;
 }
