@@ -17,13 +17,16 @@
         <a class="navbar-brand" href="#">Logo</a>
         <ul class="nav">
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Ubicación</a>
+            <a class="nav-link" href="#mapa">Ubicación</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Acerca de</a>
+            <a class="nav-link" href="#stripe">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./acercaDe.html">Acerca de</a>
           </li>
         </ul>
       </div>
@@ -79,7 +82,7 @@
         <div class="col-12 col-sm-6 desc">
           <h3>Lorem ipsum dolor sit amet.</h3>
           <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
-          <a href="#">Ir al mapa</a>
+          <a href="#mapa">Ir al mapa</a>
         </div>
       </div>
       <form action="">
@@ -91,6 +94,52 @@
             <button type="submit" class="btn btn-primary">Enviar</button>
         </div>
       </form>
+    </div>
+  </section>
+  <section>
+    <!-- Tira de imagenes -->
+    <div class="container mt-5 mb-5" id="stripe">
+      <div class="image-stripe">
+        <div class="stripe-container">
+          <div class="card">
+            <div title="Foto 1" class="cover cover-small" style="background-image: url(./Assets/img/1.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Texto.</h5>
+              <span class="badge text-bg-info">Info</span>
+            </div>
+          </div>  
+          <div class="card">
+            <div title="Foto 2" class="cover cover-small" style="background-image: url(./Assets/img/2.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Texto.</h5>
+              <span class="badge text-bg-info">Info</span>
+            </div>
+          </div>  
+          <div class="card">
+            <div title="Foto 3" class="cover cover-small" style="background-image: url(./Assets/img/3.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Texto.</h5>
+              <span class="badge text-bg-info">Info</span>
+            </div>
+          </div>  
+          <div class="card">
+            <div title="Foto 4" class="cover cover-small" style="background-image: url(./Assets/img/4.jpg);"></div>
+            <div class="card-body">
+              <h5 class="card-title">Texto.</h5>
+              <span class="badge text-bg-info">Info</span>
+            </div>
+          </div>  
+        </div>
+      </div>
+    </div>
+  </section>
+  <section>
+    <div class="container mt-5 mb-5" id="mapa">
+      <h4>Mi ubicación</h4>
+      <p>Camelia 6b, Tepetongo, Cuajimalpa de Morelos, 05200 Ciudad de México, CDMX</p>
+      <div class="responsive-iframe">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3763.970198267912!2d-99.29432002596677!3d19.370443042665332!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d20725b15c9afd%3A0x917c84e631ed43f5!2sCamelia%206b%2C%20Tepetongo%2C%20Cuajimalpa%20de%20Morelos%2C%2005200%20Ciudad%20de%20M%C3%A9xico%2C%20CDMX!5e0!3m2!1ses-419!2smx!4v1718231807296!5m2!1ses-419!2smx" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
     </div>
   </section>
 </body>
