@@ -434,56 +434,36 @@ header .navbar ul li a:hover {
   /* CONTENIDO */
 
 
-  .container2 {
+  .container-3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-top: -60px;
   }
 
-  .container2 .imagen {
-    display: grid;
+  .container-31 {
+    display: flex;
+    flex-direction: column;
     place-content: center;
   }
 
-  .container2 .video {
-    display: grid;
+  .container-31 .item {
+    margin-top: -80px;
+  }
+
+  .container-32 .item {
+    margin-top: -80px;
+    margin-bottom: 20px;
+  }
+
+  .container-32 {
+    display: flex;
+    flex-direction: column-reverse;
     place-content: center;
   }
 
-
-  .container2 .imagen:hover {
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-}
   
-  .container2 .video video:hover {
-    transition: none;
-    -webkit-transition: none;
-    -moz-transition: none;
-    -ms-transition: none;
-    -o-transition: none;
-    transform: none;
-    -webkit-transform: none;
-    -moz-transform: none;
-    -ms-transform: none;
-    -o-transform: none;
-}
 
 
-.full-img img {
-  width: 70%;
-  max-width: 400px;
-}
-
-  
-  
 
   /* FOOTER */
 
