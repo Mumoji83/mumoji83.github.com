@@ -423,6 +423,12 @@ footer {
 @media(max-width:990px){
 
 
+  body {
+    min-height: 100vh;
+  }
+
+
+
 
   /* HEADER */
 

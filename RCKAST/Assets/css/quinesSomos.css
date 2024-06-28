@@ -361,6 +361,12 @@ footer {
 
 
 
+  body {
+    min-height: 100vh;
+  }
+
+
+
   /* HEADER */
 
   header {

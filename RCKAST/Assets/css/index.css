@@ -389,13 +389,15 @@ footer {
 @media(max-width:990px){
 
 
-
-  /* HEADER */
-
   body {
     min-height: 100vh;
   }
 
+
+
+  /* HEADER */
+
+  
   header {
     padding: 20px;
   }
