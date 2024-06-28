@@ -392,6 +392,10 @@ footer {
 
   /* HEADER */
 
+  body {
+    min-height: 100vh;
+  }
+
   header {
     padding: 20px;
   }
