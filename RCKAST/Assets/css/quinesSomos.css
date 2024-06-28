@@ -205,19 +205,17 @@ header label {
   width: 90%;
   height: 90%;
   display: grid;
+  margin: 40px auto;
+  justify-content: center;
 }
 
 .container-31 {
+  width: 850px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.container-32 {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
 
 .item {
   display: flex;
@@ -250,6 +248,53 @@ header label {
   color: #fff;
   font-size: 20px;
   text-align: justify;
+}
+
+.container-32 {
+  width: 850px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.slider {
+  width: 280px;
+  height: 300px;
+  overflow: hidden;
+  margin: auto;
+}
+
+.slider ul {
+  display: flex;
+  animation: cambio 20s infinite;
+  -webkit-animation: cambio 12s infinite;
+  width: 400%;
+}
+
+.slider li {
+  width: 100%;
+  list-style: none;
+}
+
+.slider img {
+  width: 100%;
+  height: 100%;
+}
+
+@keyframes cambio {
+  0%{margin-left: 0;}
+  20%{margin-left: 0;}
+
+  25%{margin-left: -100%;}
+  45%{margin-left: -100%;}
+
+  50%{margin-left: -200%;}
+  70%{margin-left: -200%;}
+
+  75%{margin-left: -300%;}
+  100%{margin-left: -300%;}
+
 }
 
 
@@ -387,6 +432,7 @@ footer {
   
 
   header .navbar ul li {
+    background-color: rgba(0, 0, 0, .5);
     width: 100%;
     z-index: 1;
   }
