@@ -437,7 +437,7 @@ header .navbar ul li a:hover {
   .container-3 {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    margin-top: -60px;
+    
   }
 
   .container-31 {
@@ -447,11 +447,11 @@ header .navbar ul li a:hover {
   }
 
   .container-31 .item {
-    margin-top: -80px;
+    margin-top: -20px;
   }
 
   .container-32 .item {
-    margin-top: -80px;
+    margin-top: -60px;
     margin-bottom: 20px;
   }
 
@@ -484,7 +484,7 @@ header .navbar ul li a:hover {
   }
 
   .box-3 {
-    margin: 30px 0;
+    margin-top: 20px;
   }
 
   .btn-wsp {
