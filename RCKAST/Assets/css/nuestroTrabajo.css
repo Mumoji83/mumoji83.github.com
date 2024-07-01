@@ -509,11 +509,6 @@ header .navbar ul li a:hover {
     grid-template-columns: repeat(1, 1fr);
   }
 
-  .container2 .imagen {
-    display: grid;
-    place-content: center;
-  }
-
   .container2 .video {
     display: grid;
     place-content: center;
