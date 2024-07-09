@@ -760,9 +760,11 @@ header .navbar ul li a:hover {
 
 
   .container-3 {
+    background-color: beige;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     width: 50%;
+    justify-content: center;
   }
 
  /* ELLOS */
@@ -772,6 +774,7 @@ header .navbar ul li a:hover {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   width: 50%;
+  justify-content: center;
 }
 
 
@@ -782,6 +785,7 @@ header .navbar ul li a:hover {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   width: 50%;
+  justify-content: center;
 }
 
 
