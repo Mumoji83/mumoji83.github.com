@@ -105,6 +105,10 @@ header .navbar ul li .a3 {
   color: #fff;
 }
 
+header .navbar ul li .a3:hover {
+  color: #fff;
+}
+
 header .navbar ul li a:hover {
   color: rgb(203, 0, 230);
 }
@@ -177,12 +181,9 @@ header .navbar ul li ul li {
   margin: 10px 0;
 }
 
-
-
-
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
-  display: initial; 
+  display: none; 
 }
 
 #menu-bar {
@@ -199,7 +200,17 @@ header label {
 
 /*CONTENIDO ELLAS*/
 
+.container-title {
+  width: 20%;
+  margin: 0 auto;
+}
 
+.title {
+  color: rgb(2, 157, 230);
+  text-align: center;
+  font-size: 38px;
+  font-weight: 600;
+}
 
 .container {
   width: 90%;
