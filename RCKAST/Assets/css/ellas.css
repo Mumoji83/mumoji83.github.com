@@ -183,7 +183,7 @@ header .navbar ul li ul li {
 
 header .navbar ul li:focus-within > ul,
 header .navbar ul li:hover > ul {
-  display: none; 
+  display: initial; 
 }
 
 #menu-bar {
@@ -616,44 +616,4 @@ header .navbar ul li a:hover {
   
   
 
-  /* FOOTER */
-
  
-
-  .footer-nav2 {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .box-1 {
-    text-align: center;
-  }
-
-  .box-2 {
-    padding: 10px 20px;
-    display: flex;
-  }
-
-  .box-3 {
-    margin-top: 20px;
-  }
-
-  .btn-wsp {
-    display: flex;
-    flex-direction: column;
-    margin: 0 50%;
-    position: relative;
-  }
-
-
-
-@media screen and (max-width: 441px) {
-  
-  h2::before {
-    display: none;
-  }
-  h2 span {
-    padding: 0;
-  }
-
-}

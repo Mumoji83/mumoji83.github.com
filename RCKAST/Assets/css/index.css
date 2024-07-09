@@ -293,12 +293,15 @@ footer {
   padding: 12px;
 }
 
+
+
 .footer-nav2 {
   margin: 10px;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
+
 
 
 .box-1 p {
