@@ -712,7 +712,7 @@ header .navbar ul li a:hover {
   }
 
 
-  /* CONTENIDO */
+  /* CONTENIDO INDEX */
 
   .container1 {
     width: 300px;
@@ -721,6 +721,70 @@ header .navbar ul li a:hover {
   .video-clip {
     width: 300px;
   }
+
+  /* CONTENIDO QUIENES SOMOS */
+
+  .container-2 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .container-21 {
+    display: flex;
+    flex-direction: column;
+    place-content: center;
+    margin-top: -80px;
+  }
+
+  .container-21 .item {
+    margin-top: -40px;
+  }
+
+  .container-22 .item {
+    margin-top: -100px;
+    margin-bottom: 20px;
+  }
+
+  .container-22 .slider {
+    margin-top: -80px;
+  }
+
+  .container-22 {
+    display: flex;
+    flex-direction: column-reverse;
+    place-content: center;
+  }
+
+
+  /* ELLAS */
+
+
+  .container-3 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    width: 50%;
+  }
+
+ /* ELLOS */
+  
+
+ .container-4 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 50%;
+}
+
+
+/* NUESTRO TRABAJO */
+
+
+.container-5 {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  width: 50%;
+}
+
+
 
   /* FOOTER */
 
