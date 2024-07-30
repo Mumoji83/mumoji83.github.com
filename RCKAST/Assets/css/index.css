@@ -178,7 +178,7 @@ header .navbar ul li:hover > ul {
 }
 
 #menu-bar {
-  display: none;
+  display: initial;
 }
 
 header label {
