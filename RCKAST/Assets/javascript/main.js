@@ -68,6 +68,21 @@
   */
 
 
+
+  //funcion para mostrar el menú de navegación
+  
+
+  function mostrarOcultar() {
+    var cont = document.getElementsByClassName("navbar")[0];
+
+    if (cont.style.display == "initial") {
+      cont.style.display = "none";
+    } else {
+      cont.style.display = "initial";
+    }
+  }
+
+
   //función para mostrar y ocultar menú de Talento
 
 function ShowHide() {
