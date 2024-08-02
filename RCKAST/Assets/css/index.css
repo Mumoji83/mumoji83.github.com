@@ -61,6 +61,10 @@ header .logo {
   height: 80px;
 }
 
+header .nav-bar {
+  display: none;
+}
+
 header .navbar ul {
   list-style: none;
   z-index: 1;
@@ -664,9 +668,10 @@ footer {
     padding: 20px;
   }
 
-  header label {
+  header .nav-bar {
     display: initial;
   }
+
 
   header .navbar {
     position: absolute;
