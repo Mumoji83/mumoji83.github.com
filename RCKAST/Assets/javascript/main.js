@@ -68,12 +68,21 @@
   */
 
 
+  // funcion para cambiar icono de barra
+
+  let changeIcon = function(icon) {
+    icon.classList.toggle("fa-times");
+  }
+
 
   //funcion para mostrar el menú de navegación
   
 
   function mostrarOcultar() {
     var cont = document.getElementsByClassName("navbar")[0];
+    
+    let icon = document.querySelector(".fa-bars");
+    
 
     if (cont.style.display == "initial") {
       cont.style.display = "none";
