@@ -55,10 +55,15 @@ header {
   display: flex;
   align-items: start;
   justify-content: space-between;
+  height: 100px;
 }
 
 header .logo {
   height: 80px;
+}
+
+header .navbar {
+  min-height: calc(100vh -100px -120px);
 }
 
 header .nav-bar {
@@ -802,7 +807,9 @@ header .navbar ul li a:hover {
 
   /* FOOTER */
 
- 
+  footer {
+    height: 120px;
+  }
 
   .footer-nav2 {
     display: flex;
