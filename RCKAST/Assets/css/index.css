@@ -382,6 +382,8 @@ header .navbar ul li:hover > ul {
   -o-transform: scale(1.3);
 }
 
+
+
 .container-3 .imagen .active {
   position: fixed;
   top: 20%;
@@ -478,6 +480,12 @@ header .navbar ul li:hover > ul {
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
 }
+
+
+
+
+
+
 
 .container-4 .imagen .active {
   position: fixed;
