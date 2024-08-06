@@ -756,6 +756,7 @@ header .navbar ul li a:hover {
     display: flex;
     flex-direction: column;
     place-content: center;
+    width: 400px;
     margin-top: -80px;
   }
 
@@ -776,6 +777,7 @@ header .navbar ul li a:hover {
     display: flex;
     flex-direction: column-reverse;
     place-content: center;
+    width: 400px;
   }
 
 
