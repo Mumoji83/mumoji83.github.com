@@ -929,11 +929,11 @@ header .navbar ul li a:hover {
   /* CONTENIDO INDEX */
 
   .container1 {
-    width: 300px;
+    width: 100%;
   }
 
   .video-clip {
-    width: 300px;
+    width: 100%;
   }
 
   /* CONTENIDO QUIENES SOMOS */
