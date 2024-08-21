@@ -738,6 +738,10 @@ header .navbar ul li:hover > ul {
   font-size: 1.1em;
 }
 
+#mail {
+  text-transform: lowercase;
+}
+
 .info .infoBox div a {
   color: #fff;
   text-decoration: none;
