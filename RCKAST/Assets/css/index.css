@@ -227,6 +227,7 @@ header .navbar ul li:hover > ul {
   justify-content: center;
 }
 
+
 .container-21 {
   width: 100%;
   display: flex;
@@ -247,28 +248,32 @@ header .navbar ul li:hover > ul {
 
 
 .historia {
-  width: 300px;
+  width: 280px;
   height: 450px;
 }
 
+
 .mision {
-  width: 300px;
+  width: 280px;
   height: 450px;
 }
+
 
 .item h3 {
   color: #fff;
   text-transform: uppercase;
-  font-size: 30px;
+  font-size: 24px;
   margin-bottom: 20px;
 }
+
 
 .item p {
   color: #fff;
   text-transform: uppercase;
-  font-size: 20px;
+  font-size: 18px;
   text-align: justify;
 }
+
 
 .container-22 {
   width: 100%;
@@ -277,12 +282,14 @@ header .navbar ul li:hover > ul {
   justify-content: center;
 }
 
+
 .slider {
   width: 280px;
   height: 300px;
   overflow: hidden;
   margin: auto;
 }
+
 
 .slider ul {
   display: flex;
@@ -291,15 +298,18 @@ header .navbar ul li:hover > ul {
   width: 400%;
 }
 
+
 .slider li {
   width: 100%;
   list-style: none;
 }
 
+
 .slider img {
   width: 100%;
   height: 100%;
 }
+
 
 @keyframes cambio {
   0%{margin-left: 0;}
